@@ -13,18 +13,18 @@ public class UsuarioServicio {
     private List<Persona> PersonaLista = new ArrayList<>();
 
     /////////////////USUARIO//////////////
-    public void agregarPersona(Usuario persona) {
+    public void agregarPersonaUsuario(Usuario persona) {
         PersonaLista.add(persona);
     }
 
-    public List<Persona> getPersona() {
+    public List<Persona> getPersonaUsuario() {
         return PersonaLista;
     }
 
 
 
     ///////////////Peluquerx////////////
-    public void agregarPersona(Peluquero persona){
+    public void agregarPersonaPeluquerx(Peluquero persona){
             PersonaLista.add(persona);
     }
 

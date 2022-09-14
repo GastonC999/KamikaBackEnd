@@ -5,16 +5,23 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.util.Date;
+import java.util.List;
+
 
 @AllArgsConstructor
 @Getter
 @Setter
 public class Turnos{
 
-    String nombreServicio;
-    String descripcion;
-    double precio;
-    Date fecha;
+
+        String descripcionTurno;
+        long telefono;
+        double precio;
+        Date DeRegistroTurno;
+        List<Servicios> servicios;
+
+
+
 
 
 }

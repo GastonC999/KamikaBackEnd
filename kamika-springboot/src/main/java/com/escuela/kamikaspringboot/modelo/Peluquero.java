@@ -1,8 +1,7 @@
-package model;
+package com.escuela.kamikaspringboot.modelo;
 
 import lombok.Getter;
 import lombok.Setter;
-import modelo.Persona;
 
 
 public class Peluquero extends Persona {
@@ -21,4 +20,7 @@ public class Peluquero extends Persona {
         this.cuit = cuit;
 
     }
+
+
+
 }

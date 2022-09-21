@@ -1,9 +1,8 @@
-package modelo;
+package com.escuela.kamikaspringboot.modelo;
 
 
 import lombok.Getter;
 import lombok.Setter;
-import modelo.Persona;
 
 public class Usuario extends Persona {
     @Getter

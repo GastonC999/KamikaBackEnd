@@ -1,4 +1,4 @@
-package modelo;
+package com.escuela.kamikaspringboot.modelo;
 
 
 import lombok.AllArgsConstructor;

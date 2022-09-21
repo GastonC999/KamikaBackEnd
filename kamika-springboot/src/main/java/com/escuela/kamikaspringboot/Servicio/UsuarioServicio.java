@@ -1,8 +1,8 @@
-package Servicio;
+package com.escuela.kamikaspringboot.Servicio;
 
-import model.Peluquero;
-import modelo.Persona;
-import modelo.Usuario;
+import com.escuela.kamikaspringboot.modelo.Persona;
+import com.escuela.kamikaspringboot.modelo.Usuario;
+//import modelo.Peluquero;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -10,7 +10,7 @@ import java.util.List;
 
 @Service
 public class UsuarioServicio {
-    private List<Persona> PersonaLista = new ArrayList<>();
+ /*   private List<Persona> PersonaLista = new ArrayList<>();
 
     /////////////////USUARIO//////////////
     public void agregarPersonaUsuario(Usuario persona) {
@@ -27,7 +27,7 @@ public class UsuarioServicio {
     public void agregarPersonaPeluquerx(Peluquero persona){
         PersonaLista.add(persona);
     }
-
+*/
 
 
 }

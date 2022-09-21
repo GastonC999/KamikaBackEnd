@@ -1,4 +1,4 @@
-package modelo;
+package com.escuela.kamikaspringboot.modelo;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -18,7 +18,7 @@ public class Turnos{
     long telefono;
     double precio;
     Date DeRegistroTurno;
-    List<TrabajosPeluqueria> serviciosDePeluqueria;
+    List<TrabajosPe> serviciosDePeluqueria;
 
 
 

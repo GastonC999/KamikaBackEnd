@@ -1,8 +1,8 @@
-package controlador;
+package com.escuela.kamikaspringboot.controlador;
 
-import Repository.PersonaRepositority;
-import exception.ResourceNotFoundException;
-import modelo.Persona;
+import com.escuela.kamikaspringboot.Repository.PersonaRepositority;
+import com.escuela.kamikaspringboot.exception.ResourceNotFoundException;
+import com.escuela.kamikaspringboot.modelo.Persona;
 //import net.javaguides.springboot.exception.ResourceNotFoundException;
 //import net.javaguides.springboot.model.Persona;
 //import net.javaguides.springboot.repository.PersonaRepositority;

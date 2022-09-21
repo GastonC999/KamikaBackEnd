@@ -32,6 +32,5 @@ public class TrabajosPe {
 
         @Column (name = "Tiempo Estimado")
         String tiempoEstimado;
-
-        sdjasdas
+        
 }
